@@ -1,0 +1,74 @@
+<div class="docs-section" id="program">
+  <div class="docs-header">Program</div>
+  <!-- Day tabs -->
+  <div class="program-bar">
+    {% for day in site.data.program %}
+      <button
+        class="button-primary {% if forloop.first %}active{% endif %}"
+        data-dayid="{{ day.id }}"
+        data-date="{{ day.date }}">
+        {{ day.day }}
+      </button>
+    {% endfor %}
+  </div>
+
+  <!-- Day contents -->
+  <div class="program-days">
+    {% for day in site.data.program %}
+      <section
+        id="{{ day.id }}"
+        class="days-program {% if forloop.first %}active{% endif %}">
+        {% for session in day.sessions %}
+            {% assign has_session_header = session.name or session.location or session.chair %}
+            {% if has_session_header %}
+            <div class="row twelve columns">
+                {% if session.name %}<b>{{ session.name }} session</b>{% endif %}{% if session.chair %} (Chair: {{ session.chair }}){% endif %}{% if session.location %} @ {{ session.location }}{% endif %}
+            </div>
+            {% endif %}
+            {% if session.talks %}
+              <ul class="talks">
+                {% for talk in session.talks %}
+                  <li class="row">
+                    <div class="two columns value-prop">
+                      {{ talk.time }}
+                    </div>
+                    <div class="nine columns value-prop {% if forloop.last %}session-end{% endif %}">
+                        <b>{{ talk.title }}</b>{% if talk.pdf %} <a href="{{ site.talkurl | relative_url }}/{{ talk.pdf }}" target="_blank"><i class="fa-solid fa-desktop" aria-hidden="true"></i></a>{% endif %}<br>
+                        <i>{{ talk.speaker }}</i>{% if talk.note %} ({{ talk.note }}){% endif %}
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+            {% if session.others %}
+              <ul class="others">
+                {% for other in session.others %}
+                  <li class="row">
+                    <div class="two columns value-prop">
+                      {{ other.time }}
+                    </div>
+                    <div class="nine columns value-prop {% if day.id == 'day3' and forloop.last %}session-end{% endif %}">
+                        <b>{{ other.type }}</b>{% if other.location %} @ {{ other.location }}{% endif %}
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+            {% if session.break %}
+            <ul class="break">
+                <li class="row">
+                    <div class="two columns value-prop">
+                        {{ session.break.time }}
+                    </div>
+                    <div class="nine columns value-prop {% if session.break.type != 'Workshop dinner' %}session-end{% endif %}">
+                        <b>{{ session.break.type }}</b> @ {{ session.break.location }}
+                    </div>
+                </li>
+            </ul>
+            {% endif %}
+        {% endfor %}
+      </section>
+    {% endfor %}
+  </div>
+</div>
+<!-- Colloquium Seminar Room 2 SPMS-MAS-05-35 -->

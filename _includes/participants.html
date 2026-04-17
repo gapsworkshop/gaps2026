@@ -1,0 +1,30 @@
+<div class="docs-section" id="participants">
+  <div class="docs-header">Participants</div>
+  <img class="flex-img" src="{{ site.imageurl | relative_url }}/gaps2025.jpg">
+  <div class="row">
+    {% assign items = site.data.participants | sort: "last" %}
+    {% assign onethird = items.size | divided_by:3 %}
+    {% assign twothird = onethird | times:2 %}
+    <ul class= "four columns">
+      {% for item in items limit:onethird %}
+      <li>
+	      <b>{{ item.first }} {{ item.last }}</b>
+      </li>
+      {% endfor %}
+    </ul>
+    <ul class= "four columns">
+      {% for item in items offset:onethird limit:onethird %}
+      <li>
+	      <b>{{ item.first }} {{ item.last }}</b>
+      </li>
+      {% endfor %}
+    </ul>
+    <ul class= "four columns">
+      {% for item in items offset:twothird %}
+      <li>
+	      <b>{{ item.first }} {{ item.last }}</b>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

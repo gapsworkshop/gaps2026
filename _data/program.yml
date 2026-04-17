@@ -1,0 +1,234 @@
+- day: Monday, 1 September
+  id: day1
+  date: 2025-09-01
+  sessions:
+    - name: "Morning"
+      location: "Colloquium Seminar Room 2, Level 5"
+      chair: "Tetsu Iwata"
+      talks:
+        - time: "09:00 - 09:45"
+          title: "Security by Contract"
+          speaker: "Stefan Lucks"
+          pdf: "stefan.pdf"
+        - time: "09:45 - 10:30"
+          title: "Provable Security from a Cryptanalysis Perspective"
+          speaker: "Tim Beyne"
+          pdf: "tim.pdf"
+    - break:
+        time: "10:30 - 11:00"
+        type: "Coffee break"
+        location: "MAS Atrium, Level 3"
+    - name: "Pre-lunch"
+      location: "Colloquium Seminar Room 2, Level 5"
+      chair: "Ritam Bhaumik"
+      talks:
+        - time: "11:00 - 11:30"
+          title: "Cymric: Short-tailed but Mighty"
+          speaker: "Wonseok Choi"
+          pdf: "wonseok.pdf"
+        - time: "11:30 - 12:00"
+          title: "Naor-Reingold goes Beyond the Birthday Bound"
+          speaker: "Nilanjan Datta"
+          pdf: "nilanjan.pdf"
+        - time: "12:00 - 12:30"
+          title: "The Exact Multi-User Security of Key-Alternating Feistel Ciphers with a Single Permutation"
+          speaker: "Yu Sasaki"
+          pdf: "yu.pdf"
+    - break:
+        time: "12:30 - 14:30"
+        type: "Lunch break"
+        location: "MAS Atrium, Level 3"
+    - name: "Post-lunch"
+      others:
+        - time: "14:30 - 16:00"
+          type: "Group discussions"
+        - time: "16:00 - 16:30"
+          type: "Coffee break"
+          location: "MAS Atrium, Level 3"
+        - time: "16:30 - 18:00"
+          type: "Group discussions"
+- day: Tuesday, 2 September
+  id: day2
+  date: 2025-09-02
+  sessions:
+    - name: "Morning"
+      location: "Colloquium Seminar Room 2, Level 5"
+      chair: "Patrick Struck"
+      talks:
+        - time: "09:00 - 09:45"
+          title: "Quantum Attacks on Symmetric Constructions"
+          speaker: "André Schrottenloher"
+          pdf: "andre.pdf"
+        - time: "09:45 - 10:30"
+          title: "Proof Techniques for a Quantum World"
+          speaker: "Ritam Bhaumik"
+          pdf: "ritam.pdf"
+    - break:
+        time: "10:30 - 11:00"
+        type: "Coffee break"
+        location: "MAS Atrium, Level 3"
+    - name: "Pre-lunch"
+      location: "Colloquium Seminar Room 2, Level 5"
+      chair: "Shivam Bhasin / Mustafa Khairallah"
+      talks:
+        - time: "11:00 - 12:00"
+          title: "Picking up the Fallen Mask: Breaking and Fixing the RS-Mask Countermeasure"
+          speaker: "Svetla Nikova"
+          note: "Co-located seminar @ LT4"
+        - time: "12:00 - 12:45"
+          title: "Leakage-resilient AEADs"
+          speaker: "Chun Guo"
+          # pdf: "chun.pdf"
+    - break:
+        time: "12:45 - 14:30"
+        type: "Lunch break"
+        location: "MAS Atrium, Level 3"
+    - name: "Post-lunch"
+      others:
+        - time: "14:30 - 16:00"
+          type: "Group discussions"
+        - time: "16:00 - 16:30"
+          type: "Coffee break"
+          location: "MAS Atrium, Level 3"
+        - time: "16:30 - 18:00"
+          type: "Group discussions"
+- day: Wednesday, 3 September
+  id: day3
+  date: 2025-09-03
+  sessions:
+    - name: "Morning"
+      location: "Colloquium Seminar Room 2, Level 5"
+      chair: "Wonseok Choi"
+      talks:
+        - time: "09:00 - 09:45"
+          title: "Indifferentiability of 6-round Feistel Cipher"
+          speaker: "Mridul Nandi"
+          pdf: "mridul.pdf"
+        - time: "09:45 - 10:30"
+          title: "Mirror Theory: Proof Techniques and Applications"
+          speaker: "Abishanka Saha"
+          pdf: "abishanka.pdf"
+    - break:
+        time: "10:30 - 11:00"
+        type: "Coffee break"
+        location: "MAS Atrium, Level 3"
+    - name: "Pre-lunch"
+      location: "Colloquium Seminar Room 2, Level 5"
+      chair: "Yu Sasaki"
+      talks:
+        - time: "11:00 - 11:45"
+          title: "Analysis of Committing Authenticated Encryption"
+          speaker: "Kazuhiko Minematsu"
+          # pdf: "kazuhiko.pdf"
+        - time: "11:45 - 12:15"
+          title: "Committing Authenticated Encryption"
+          speaker: "Patrick Struck"
+          pdf: "patrick.pdf"
+    - break:
+        time: "12:15 - 14:15"
+        type: "Lunch break"
+        location: "MAS Atrium, Level 3"
+    - name: "Post-lunch"
+      others:
+        - time: "14:15 - 16:00"
+          type: "Group discussions"
+        - time: "16:00 - 16:30"
+          type: "Coffee break"
+          location: "MAS Atrium, Level 3"
+        - time: "16:30 - 17:30"
+          type: "Group discussions"
+    - break:
+        time: "19:00 - 22:00"
+        type: "Workshop dinner"
+        location: "Holiday Inn Atrium Hotel"
+- day: Thursday, 4 September
+  id: day4
+  date: 2025-09-04
+  sessions:
+    - name: "Morning"
+      location: "Colloquium Seminar Room 2, Level 5"
+      chair: "Kazuhiko Minematsu"
+      talks:
+        - time: "09:00 - 09:45"
+          title: "Security in the White-box Setting"
+          speaker: "Avik Chakraborti"
+          pdf: "avik.pdf"
+        - time: "09:45 - 10:30"
+          title: "Expanding the Scope, Security and Efficiency of Classical Symmetric Primitives"
+          speaker: "Elena Andreeva"
+          pdf: "elena.pdf"
+    - break:
+        time: "10:30 - 11:00"
+        type: "Coffee break"
+        location: "MAS Atrium, Level 3"
+    - name: "Pre-lunch"
+      location: "Colloquium Seminar Room 2, Level 5"
+      chair: "Mridul Nandi"
+      talks:
+        - time: "11:00 - 11:45"
+          title: "Generic Attacks on Double Block Length Hashing"
+          speaker: "Gaëtan Leurent"
+          pdf: "gaetan.pdf"
+        - time: "11:45 - 12:30"
+          title: "SoK: Security of the Ascon Modes"
+          speaker: "Charlotte Lefevre"
+          pdf: "charlotte.pdf"
+    - break:
+        time: "12:30 - 14:30"
+        type: "Lunch break"
+        location: "MAS Atrium, Level 3"
+    - name: "Post-lunch"
+      others:
+        - time: "14:30 - 16:00"
+          type: "Group discussions"
+        - time: "16:00 - 16:30"
+          type: "Coffee break"
+          location: "MAS Atrium, Level 3"
+        - time: "16:30 - 18:00"
+          type: "Group discussions"
+- day: Friday, 5 September
+  id: day5
+  date: 2025-09-05
+  sessions:
+    - name: "Morning"
+      location: "Colloquium Seminar Room 2, Level 5"
+      chair: "Thomas Peyrin"
+      talks:
+        - time: "09:00 - 09:45"
+          title: "Vector Semi-Commitment: Optimizing MPC-in-the-Head based Signatures"
+          speaker: "Byeonghak Lee"
+          pdf: "byeonghak.pdf"
+        - time: "09:45 - 10:30"
+          title: "Block Cipher Modes of Operation: Provable Security using Automated Reasoning"
+          speaker: "Nicky Mouha"
+          pdf: "nicky.pdf"
+    - break:
+        time: "10:30 - 11:00"
+        type: "Coffee break"
+        location: "MAS Atrium, Level 3"
+    - name: "Pre-lunch"
+      location: "Colloquium Seminar Room 2, Level 5"
+      chair: "Stefan Lucks"
+      talks:
+        - time: "11:00 - 11:30"
+          title: "Security Analysis of NIST Key Derivation Using Pseudorandom Functions"
+          speaker: "Yaobin Shen"
+          pdf: "yaobin.pdf"
+        - time: "11:30 - 12:15"
+          title: "Key Control Security of Key Derivation Functions from NIST SP 800-108"
+          speaker: "Tetsu Iwata"
+          pdf: "tetsu.pdf"
+    - break:
+        time: "12:15 - 14:15"
+        type: "Lunch break"
+        location: "MAS Atrium, Level 3"
+    - name: "Post-lunch"
+      others:
+        - time: "14:15 - 16:00"
+          type: "Group discussions"
+        - time: "16:00 - 16:30"
+          type: "Coffee break"
+          location: "MAS Atrium, Level 3"
+        - time: "16:30 - 17:30"
+          type: "Discussion Summary"
+          location: "Colloquium Seminar Room 2, Level 5"
