@@ -284,7 +284,7 @@ button.button-primary.active, {
   .hamburger-item:first-child .hamburger-link:hover:after {
     border-bottom-color: $header-color; }
 /* Larger than phone */
-    @media (min-width: 550px) {
+    @media (min-width: 550px, min-height: 1000px) {
   .poster {
       margin-top: 8rem; }
   .value-props {
