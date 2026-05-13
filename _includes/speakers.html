@@ -1,7 +1,7 @@
 <div class="docs-section" id="speakers">
   <div class="docs-header">Confirmed Speakers</div>
   <div class="row">
-    {% assign items = site.data.speakers | sort: "last" %}
+    {% assign items = site.data.speakers %}
     {% assign halfway = items.size | plus:1 | divided_by:2 %}
     <ul class= "six columns">
       {% for item in items limit:halfway %}
