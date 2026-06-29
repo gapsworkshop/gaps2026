@@ -51,14 +51,22 @@
     - name: "Early Afternoon"
       others:
         - time: "14:00 - 15:30"
-          type: "Initial Group Presentations"
+          type: "Work in Groups"
     - break:
         time: "15:30 - 16:00"
         type: "Coffee break"
     - name: "Late Afternoon"
       others:
-        - time: "16:00 - 18:00"
-          type: "Work in Groups"
+        - time: "16:00 - 17:30"
+          type: "Work in Groups"    
+    - name: "Early Evening"
+      others:
+        - time: "17:30 - 18:30"
+          type: "Social Event"
+    - name: "Late Evening"
+      others:
+        - time: "18:30 - onwards"
+          type: "Social Dinner"
 
 - day: Wednesday, 23 September
   id: day3
@@ -81,14 +89,14 @@
     - name: "Early Afternoon"
       others:
         - time: "14:00 - 15:30"
-          type: "Work in Groups"
+          type: "Initial Group Presentations"
     - break:
         time: "15:30 - 16:00"
         type: "Coffee break"
     - name: "Late Afternoon"
       others:
-        - time: "16:00 - onwards"
-          type: "Social Event"
+        - time: "16:00 - 18:00"
+          type: "Work in Groups"
 
 - day: Thursday, 24 September
   id: day4
