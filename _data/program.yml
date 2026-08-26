@@ -2,8 +2,8 @@
   id: day1
   date: 2026-09-21
   sessions:
-    - name: "Morning Session"
-      others:
+    - name: "Morning"
+    - others:
         - time: "09:00 - 09:15"
           type: "Welcome Words"
         - time: "09:15 - 10:30"
@@ -11,7 +11,7 @@
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
-      others:
+    - others:
         - time: "11:00 - 12:00"
           type: "Discussion & Group Selection"
     - talk:
@@ -21,7 +21,7 @@
     - break:
         time: "12:30 - 14:00"
         type: "Lunch"
-    - name: "Afternoon Session"
+    - name: "Afternoon"
       others:
         - time: "14:00 - 15:30"
           type: "Group Discussion and Selection"
