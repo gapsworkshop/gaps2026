@@ -2,32 +2,34 @@
   id: day1
   date: 2026-09-21
   sessions:
-    - name: "Early Morning"
+    - name: "Morning Session"
       others:
-        - time: "08:45 - 09:00"
+        - time: "09:00 - 09:15"
           type: "Welcome Words"
-        - time: "09:00 - 10:30"
-          type: "Short Talks (ideas for group topics)"
+        - time: "09:15 - 10:30"
+          type: "Presentation and Discussion of Potential Group Topics"
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
-    - name: "Late Morning"
       others:
-        - time: "11:00 - 12:30"
+        - time: "11:00 - 12:00"
           type: "Discussion & Group Selection"
+    - talk:
+      time: "12:00 - 12:30"
+      title: "Invited Talk"    
+      speaker: "Phillip Rogaway"
     - break:
         time: "12:30 - 14:00"
         type: "Lunch"
-    - name: "Early Afternoon"
+    - name: "Afternoon Session"
       others:
         - time: "14:00 - 15:30"
-          type: "Work in Groups"
+          type: "Group Discussion and Selection"
     - break:
         time: "15:30 - 16:00"
         type: "Coffee break"
-    - name: "Late Afternoon"
       others:
-        - time: "16:00 - 18:00"
+        - time: "16:00 - 17:30"
           type: "Work in Groups"
 
 - day: Tuesday, 22 September
