@@ -12,10 +12,10 @@
         time: "10:30 - 11:00"
         type: "Coffee break"
     - name: "Late Morning"
-      others:
-        - time: "11:00 - 12:00"
-          type: "Discussion & Group Selection"
+    - others:
       talks:
+        - time: "11:00 - 12:00"
+          title: "Discussion & Group Selection"
         - time: "12:00 - 12:30"
           title: "Invited Talk"    
           speaker: "Phillip Rogaway"
