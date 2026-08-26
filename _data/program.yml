@@ -39,15 +39,23 @@
   date: 2026-09-22
   sessions:
     - name: "Early Morning"
-      others:
-        - time: "09:00 - 10:30"
-          type: "Invited Talks"
+      talks:
+        - time: "09:00 - 09:40"
+          title: "Invited Talk"
+          speaker: "Kazuhiko Minematsu"
+        - time: "09:50 - 10:30"
+          title: "Invited Talk"
+          speaker: "Christian Majenz"
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
     - name: "Late Morning"
+      talks:
+        - time: "11:00 - 11:40"
+          title: "Invited Talk"
+          speaker: "Mihir Bellare"
       others:
-        - time: "11:00 - 12:30"
+        - time: "11:40 - 12:30"
           type: "Work in Groups"
     - break:
         time: "12:30 - 14:00"
@@ -61,8 +69,8 @@
         type: "Coffee break"
     - name: "Late Afternoon"
       others:
-        - time: "16:00 - 17:30"
-          type: "Work in Groups"    
+        - time: "16:00 - 17:00"
+          type: "Work in Groups (Midterm results)"    
     - name: "Early Evening"
       others:
         - time: "17:30 - 18:30"
