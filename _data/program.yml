@@ -54,8 +54,9 @@
     - name: "Late Morning"
       talks:
         - time: "11:00 - 11:40"
-          title: "Invited Talk"
+          title: "The Next Generation"
           speaker: "Mihir Bellare"
+          note: "The first part of this talk, which is on the technical side, will critique the current definition of authenticated encryption (AE1 or AEAD), with regard, not to novel or advanced goals, but (perhaps surprisingly) to providing the most basic message privacy. It will then discuss alternatives (AE2, AE3, AE5), ultimately suggesting as a conclusion that a really good definition is still lacking and an open question. The second part of the talk, which is more on the social side, will explore how AI might impact our community."
       others:
         - time: "11:40 - 12:30"
           type: "Work in Groups"
@@ -92,8 +93,9 @@
           title: "Invited Talk"
           speaker: "Bart Mennink"
         - time: "09:50 - 10:30"
-          title: "Invited Talk"
+          title: "FLOE: Random-Access AEAD for Fast Lightweight Online Encryption"
           speaker: "Julia Len"
+          note: "An ubiquitous problem in large-scale production environments is online encryption of large messages (e.g., databases, video streams, etc.), that is, encryption while using a small amount of memory. While straightforward when only (unauthenticated) encryption is required---say, by encrypting/decrypting in chunks, using a standard encryption scheme---this is more challenging in the presence of active attackers, who may drop or reorganize ciphertext segments arbitrarily. Moreover, many use cases additionally require both encryption and decryption to be random access, meaning that messages (resp., ciphertexts) can be encrypted (resp., decrypted) in any order. The purpose of this talk is to present the design of FLOE (Fast Lightweight Online Encryption), a new random-access online AEAD scheme. FLOE was designed in close collaboration with Snowflake, a leading cloud company, where it is slated to be deployed in production to protect sensitive user data. Requiring online encryption of large files, Snowflake encountered a number of real-world challenges with existing schemes, which motivated the design of a new construction."
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
