@@ -48,8 +48,9 @@
           speaker: "Kazuhiko Minematsu"
           note: 'In this talk, I will briefly describe my involvement in two advanced forms of authenticated encryption (AE), especially leakage-resilient AE (LRAE) and committing AE (ComAE). Both classes have received great attention from the community. For LRAE, I will discuss two orthogonal approaches, i.e., everything is equally protected and "leveled" implementation, and show research progress on each of them. For ComAE, I will discuss an issue that arises when composing a black-box AE and a transform to make the transformed AE committing.'
         - time: "09:50 - 10:30"
-          title: "Invited Talk"
+          title: "An alternative to the H-coefficient technique for post-quantum security proofs"
           speaker: "Christian Majenz"
+          note: "The H-coefficient technique is as close as it gets to a universal tool for provable symmetric-key cryptography in idealized models. In this talk, I will first discuss what makes the H-coefficient technique so successful, and discuss why extending it to quantum adversaries seems hard. I will then present a different much more pedestrian approach: hybridizing across an adversary's queries to a keyed oracle (which remains classical/non-quantum in the post-quantum security setting). I will exemplify the technique using Even Mansour, the cipher we developed it for (together with Gorjan Alagic, Chen Bai, and Jonathan Katz). I will show a list of constructions the technique has been applied to, and describe prospects and obstacles to further applications."
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
@@ -140,18 +141,14 @@
           note: "The Even-Mansour construction, and its generalisation to key-alternating ciphers, have long been studied as high-level provable security abstractions of the modern block cipher design philosophy. Starting from the seminal work of Even and Mansour, a substantial line of work has explored how far these constructions can be minimised along different dimensions, including the number of keys, the number of permutations, and the required independence assumptions. Following this line of work, we ask a complementary question: how large do the key spaces themselves need to be? We show that this question has deep connections with additive combinatorics, with different additive notions influencing different keying scenarios. These connections lead to substantially reduced key material while yielding near-optimal information-theoretic security bounds."
         - time: "09:50 - 10:30"
           title: "Invited Talk"
-          speaker: "Martijn Stam"
+          speaker: "Hrithik Nandi"
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
         location: "Foyer HHEG07"
     - name: "Late Morning"
-      talks:
-        - time: "11:00 - 11:40"
-          title: "Invited Talk"
-          speaker: "Hrithik Nandi"
       others:
-        - time: "11:40 - 12:30"
+        - time: "11:00 - 12:30"
           type: "Work in Groups"
     - break:
         time: "12:30 - 14:00"
