@@ -17,7 +17,7 @@
       talks:
         - time: "11:00 - 11:40"
           title: "Discussion & Group Selection"
-        - time: "11:40 - 12:30"
+        - time: "11:50 - 12:30"
           title: "Three Unwritten Papers in Symmetric Cryptography"
           speaker: "Phillip Rogaway"
           note: "People usually give talks about papers they've written. I thought it would be fun to turn that around and talk about papers that I didn't write. I'll reach into the distant recesses of memory to identify three problems in symmetric cryptography that I once thought would make for good papers, but that I never pursued. They failed to materialize not because I got stuck, but just because, you know, we don't do everything we think of doing. I won't tell you here what the three non-papers are about, because that would spoil the surprise."
