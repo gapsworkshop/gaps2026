@@ -17,8 +17,9 @@
         - time: "11:00 - 11:40"
           title: "Discussion & Group Selection"
         - time: "11:40 - 12:30"
-          title: "Invited Talk"    
+          title: "Three Unwritten Papers in Symmetric Cryptography"
           speaker: "Phillip Rogaway"
+          note: "People usually give talks about papers they've written. I thought it would be fun to turn that around and talk about papers that I didn't write. I'll reach into the distant recesses of memory to identify three problems in symmetric cryptography that I once thought would make for good papers, but that I never pursued. They failed to materialize not because I got stuck, but just because, you know, we don't do everything we think of doing. I won't tell you here what the three non-papers are about, because that would spoil the surprise."
     - break:
         time: "12:30 - 14:00"
         type: "Lunch"
@@ -41,8 +42,9 @@
     - name: "Early Morning"
       talks:
         - time: "09:00 - 09:40"
-          title: "Invited Talk"
+          title: "Directions in Advanced Authenticated Encryption"
           speaker: "Kazuhiko Minematsu"
+          note: 'In this talk, I will briefly describe my involvement in two advanced forms of authenticated encryption (AE), especially leakage-resilient AE (LRAE) and committing AE (ComAE). Both classes have received great attention from the community. For LRAE, I will discuss two orthogonal approaches, i.e., everything is equally protected and "leveled" implementation, and show research progress on each of them. For ComAE, I will discuss an issue that arises when composing a black-box AE and a transform to make the transformed AE committing.'
         - time: "09:50 - 10:30"
           title: "Invited Talk"
           speaker: "Christian Majenz"
@@ -70,7 +72,7 @@
     - name: "Late Afternoon"
       others:
         - time: "16:00 - 17:00"
-          type: "Work in Groups (Midterm results)"    
+          type: "Work in Groups (Midterm results)"
     - name: "Early Evening"
       others:
         - time: "17:30 - 18:30"
@@ -125,8 +127,9 @@
     - name: "Early Morning"
       talks:
         - time: "09:00 - 09:40"
-          title: "Invited Talk"
+          title: "Minimising the Minimised --- How Much Key Material Do Key-Alternating Ciphers Really Need?"
           speaker: "Ashwin Jha"
+          note: "The Even-Mansour construction, and its generalisation to key-alternating ciphers, have long been studied as high-level provable security abstractions of the modern block cipher design philosophy. Starting from the seminal work of Even and Mansour, a substantial line of work has explored how far these constructions can be minimised along different dimensions, including the number of keys, the number of permutations, and the required independence assumptions. Following this line of work, we ask a complementary question: how large do the key spaces themselves need to be? We show that this question has deep connections with additive combinatorics, with different additive notions influencing different keying scenarios. These connections lead to substantially reduced key material while yielding near-optimal information-theoretic security bounds."
         - time: "09:50 - 10:30"
           title: "Invited Talk"
           speaker: "Martijn Stam"
