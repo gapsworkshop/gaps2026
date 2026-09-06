@@ -14,7 +14,7 @@
     - name: "Late Morning"
     - others:
       talks:
-        - time: "11:00 - 12:00"
+        - time: "11:00 - 11:40"
           title: "Discussion & Group Selection"
         - time: "11:40 - 12:30"
           title: "Invited Talk"    
