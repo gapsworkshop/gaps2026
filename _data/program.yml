@@ -6,6 +6,7 @@
       others:
         - time: "09:00 - 09:15"
           type: "Welcome Words"
+          location: HEEG02 - FAV Hörsaal 1 Helmut Veith
         - time: "09:15 - 10:30"
           type: "Presentation and Discussion of Potential Group Topics"
     - break:
