@@ -9,15 +9,17 @@
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
         - time: "09:15 - 10:30"
           type: "Presentation and Discussion of Potential Group Topics"
+          location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
-        location: "Foyer HHEG07"
+        location: "HHEG07 - Foyer"
     - name: "Late Morning"
     - others:
       talks:
         - time: "11:00 - 11:40"
           title: "Discussion & Group Selection"
+          location: "Seminarraum FAV EG A/B/C; FAV Hörsaal 2/3"
         - time: "11:50 - 12:30"
           title: "Three Unwritten Papers in Symmetric Cryptography"
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
@@ -30,14 +32,16 @@
       others:
         - time: "14:00 - 15:30"
           type: "Group Discussion"
+          location: "Seminarraum FAV EG A/B/C; FAV Hörsaal 2/3"
     - break:
         time: "15:30 - 16:00"
         type: "Coffee break"
-        location: "Foyer HHEG07"
+        location: "HHEG07 - Foyer"
     - name: "Late Afternoon"
       others:
         - time: "16:00 - 17:30"
           type: "Work in Groups"
+          location: "Seminarraum FAV EG A/B/C; FAV Hörsaal 2/3"
 
 - day: Tuesday, 22 September
   id: day2
@@ -58,7 +62,7 @@
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
-        location: "Foyer HHEG07"
+        location: "HHEG07 - Foyer"
     - name: "Late Morning"
       talks:
         - time: "11:00 - 11:40"
@@ -69,6 +73,7 @@
       others:
         - time: "11:40 - 12:30"
           type: "Work in Groups"
+          location: "Seminarraum FAV EG A/B/C; FAV Hörsaal 2/3"
     - break:
         time: "12:30 - 14:00"
         type: "Lunch"
@@ -76,14 +81,16 @@
       others:
         - time: "14:00 - 15:30"
           type: "Work in Groups"
+          location: "Seminarraum FAV EG A/B/C; FAV Hörsaal 2/3"
     - break:
         time: "15:30 - 16:00"
         type: "Coffee break"
-        location: "Foyer HHEG07"
+        location: "HHEG07 - Foyer"
     - name: "Late Afternoon"
       others:
         - time: "16:00 - 17:00"
           type: "Work in Groups (Midterm results)"
+          location: "Seminarraum FAV EG A/B/C; FAV Hörsaal 2/3"
     - name: "Early Evening"
       others:
         - time: "17:30 - 18:30"
@@ -111,7 +118,7 @@
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
-        location: "Foyer HHEG07"
+        location: "HHEG07 - Foyer"
     - name: "Late Morning"
       talks:
         - time: "11:00 - 11:40"
@@ -121,6 +128,7 @@
       others:
         - time: "11:40 - 12:30"
           type: "Work in Groups"
+          location: "Seminarraum FAV EG A/B/C; FAV Hörsaal 2/3"
     - break:
         time: "12:30 - 14:00"
         type: "Lunch"
@@ -128,14 +136,16 @@
       others:
         - time: "14:00 - 15:30"
           type: "Initial Group Presentations"
+          location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
     - break:
         time: "15:30 - 16:00"
         type: "Coffee break"
-        location: "Foyer HHEG07"
+        location: "HHEG07 - Foyer"
     - name: "Late Afternoon"
       others:
         - time: "16:00 - 18:00"
           type: "Work in Groups"
+          location: "Seminarraum FAV EG A/B/C; FAV Hörsaal 2/3"
 
 - day: Thursday, 24 September
   id: day4
@@ -155,11 +165,12 @@
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
-        location: "Foyer HHEG07"
+        location: "HHEG07 - Foyer"
     - name: "Late Morning"
       others:
         - time: "11:00 - 12:30"
           type: "Work in Groups"
+          location: "Seminarraum FAV EG A/B/C; FAV Hörsaal 2/3"
     - break:
         time: "12:30 - 14:00"
         type: "Lunch"
@@ -167,11 +178,13 @@
       others:
         - time: "14:00 - 15:30"
           type: "Work in Groups"
+          location: "Seminarraum FAV EG A/B/C; FAV Hörsaal 2/3"
     - break:
         time: "15:30 - 16:00"
         type: "Coffee break"
-        location: "Foyer HHEG07"
+        location: "HHEG07 - Foyer"
     - name: "Late Afternoon"
       others:
         - time: "16:00 - 18:00"
           type: "Final Group Presentations and Closing Remarks"
+          location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
