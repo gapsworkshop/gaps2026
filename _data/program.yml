@@ -15,7 +15,6 @@
         type: "Coffee break"
         location: "HHEG07 - Foyer"
     - name: "Late Morning"
-    - others:
       talks:
         - time: "11:00 - 11:40"
           title: "Discussion & Group Selection"

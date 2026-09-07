@@ -1,7 +1,11 @@
 <div class="docs-section" id="participants">
   <div class="docs-header">Participants (TBD)</div>
   <div class="row">
-    {% assign items = site.data.participants | sort: "last" %}
+    {% if site.data.participants %}
+      {% assign items = site.data.participants | sort: "last" %}
+    {% else %}
+      {% assign items = "" | split: "," %}
+    {% endif %}
     {% assign onethird = items.size | divided_by:3 %}
     {% assign twothird = onethird | times:2 %}
     <ul class= "four columns">
