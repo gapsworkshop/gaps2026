@@ -89,6 +89,10 @@ ol, ul {
 .others {
     list-style: none;
 }
+.talk-note {
+  display: block;
+  margin-top: .5rem;
+  color: #555; }
 .session-end {
   border-bottom: 1px solid #ddd;
   padding-bottom: 3rem; /* optional, gives some breathing room */

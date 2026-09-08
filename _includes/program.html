@@ -34,7 +34,7 @@
                     </div>
                     <div class="nine columns value-prop {% if forloop.last %}session-end{% endif %}">
                         <b>{{ talk.title }}</b>{% if talk.pdf %} <a href="{{ site.talkurl | relative_url }}/{{ talk.pdf }}" target="_blank"><i class="fa-solid fa-desktop" aria-hidden="true"></i></a>{% endif %}{% if talk.location %} @ {{ talk.location }}{% endif %}<br>
-                        <i>{{ talk.speaker }}</i>{% if talk.note %} ({{ talk.note }}){% endif %}
+                        <i>{{ talk.speaker }}</i>{% if talk.note %}<br><i class="talk-note">{{ talk.note }}</i>{% endif %}
                     </div>
                   </li>
                 {% endfor %}
