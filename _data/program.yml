@@ -162,9 +162,10 @@
           speaker: "Ashwin Jha"
           note: "The Even-Mansour construction, and its generalisation to key-alternating ciphers, have long been studied as high-level provable security abstractions of the modern block cipher design philosophy. Starting from the seminal work of Even and Mansour, a substantial line of work has explored how far these constructions can be minimised along different dimensions, including the number of keys, the number of permutations, and the required independence assumptions. Following this line of work, we ask a complementary question: how large do the key spaces themselves need to be? We show that this question has deep connections with additive combinatorics, with different additive notions influencing different keying scenarios. These connections lead to substantially reduced key material while yielding near-optimal information-theoretic security bounds."
         - time: "09:50 - 10:30"
-          title: "Invited Talk"
+          title: "Generic Committing Attacks: Zero-Padded Ascon is Less Secure than Expected"
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
           speaker: "Hrithik Nandi"
+          note: "In this talk, we study generic committing attacks against sponge-based authenticated encryption. We examine existing attack strategies for generic sponge constructions and study how various design features, including key blinding and zero-padding, affect their committing security. Finally, we present three new committing attacks that improve upon previously known attacks. In particular, one of our attacks provides a counterexample to the existing security analysis of Ascon-like schemes with zero-padding, showing that the claimed security does not hold for all parameter choices. For the case of 128-bit tags and 256-bit zero-padding, the previous analysis claims 192-bit committing security, whereas our attack reduces this to 130 bits."
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
