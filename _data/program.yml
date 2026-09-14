@@ -171,8 +171,13 @@
         type: "Coffee break"
         location: "HHEG07 - Foyer"
     - name: "Late Morning"
+      talks:
+        - time: "11:00 - 11:40"
+          title: "Provably Secure and Efficient Arithmetization-Oriented Compression Functions"
+          location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
+          speaker: "Stefano Trevisani"
       others:
-        - time: "11:00 - 12:30"
+        - time: "11:40 - 12:30"
           type: "Work in Groups"
           location: "Seminarraum FAV EG A/B/C; FAV Hörsaal 2/3"
     - break:
