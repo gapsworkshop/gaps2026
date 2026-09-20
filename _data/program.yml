@@ -112,9 +112,10 @@
     - name: "Early Morning"
       talks:
         - time: "09:00 - 09:40"
-          title: "Invited Talk"
+          title: "This SuKS"
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
           speaker: "Bart Mennink"
+          note: "The suffix keyed sponge (SuKS) is a variant of the keyed sponge that processes the key after the data instead of before the data. In 2019, Dobraunig and Mennink proved that this construction is a secure pseudorandom function and also achieves a certain level of leakage resilience. In this presentation, we take a fresh look at SuKS: we consider its advantages over the full-state keyed sponge, its disadvantages, and present a new generalization. We also discuss various applications of this generalized construction."
         - time: "09:50 - 10:30"
           title: "FLOE: Random-Access AEAD for Fast Lightweight Online Encryption"
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
