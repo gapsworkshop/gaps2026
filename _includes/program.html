@@ -47,7 +47,10 @@
             {{ other.time }}
           </div>
           <div class="nine columns value-prop {% if day.id == 'day3' and forloop.last %}session-end{% endif %}">
-            <b>{{ other.type }}</b>{% if other.location %} @ {{ other.location }}{% endif %}
+            <b>{{ other.type }}</b>{% if other.pdf %} <a href="{{ site.otherurl | relative_url }}/{{ other.pdf }}"
+              target="_blank"><i class="fa-solid fa-desktop" aria-hidden="true"></i></a>{% endif %}{% if other.location
+            %} @ {{ other.location }}{% endif %}{% if other.note %}<br><i class="talk-note">{{ other.note }}</i>{% endif
+            %}
           </div>
         </li>
         {% endfor %}
