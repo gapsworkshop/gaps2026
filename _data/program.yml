@@ -185,6 +185,7 @@
           title: "Provably Secure and Efficient Arithmetization-Oriented Compression Functions"
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
           speaker: "Stefano Trevisani"
+          note: "Modern ZK-SNARKs and ZK-STARKs, and many of their applications, require on cryptographic compression and hash functions. In this setting, efficiency is dictated by arithmetization requirements, where classical designs typically fall short. In this talk, we will explore the design of provably secure arithmetization-oriented compression functions, based on either block ciphers or cryptographic permutations, and compare their efficiency to existing constructions in the literature."
       others:
         - time: "11:40 - 12:30"
           type: "Work in Groups"
