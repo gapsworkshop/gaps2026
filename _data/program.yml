@@ -24,7 +24,7 @@
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
           speaker: "Phillip Rogaway"
           note: "People usually give talks about papers they've written. I thought it would be fun to turn that around and talk about papers that I didn't write. I'll reach into the distant recesses of memory to identify three problems in symmetric cryptography that I once thought would make for good papers, but that I never pursued. They failed to materialize not because I got stuck, but just because, you know, we don't do everything we think of doing. I won't tell you here what the three non-papers are about, because that would spoil the surprise."
-          pdf: "Rogaway"
+          pdf: "Rogaway.pdf"
     - break:
         time: "12:30 - 14:00"
         type: "Lunch"
@@ -59,13 +59,13 @@
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
           speaker: "Kazuhiko Minematsu"
           note: 'In this talk, I will briefly describe my involvement in two advanced forms of authenticated encryption (AE), especially leakage-resilient AE (LRAE) and committing AE (ComAE). Both classes have received great attention from the community. For LRAE, I will discuss two orthogonal approaches, i.e., everything is equally protected and "leveled" implementation, and show research progress on each of them. For ComAE, I will discuss an issue that arises when composing a black-box AE and a transform to make the transformed AE committing.'
-          pdf: "Minematsu"
+          pdf: "Minematsu.pdf"
         - time: "09:50 - 10:30"
           title: "An alternative to the H-coefficient technique for post-quantum security proofs"
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
           speaker: "Christian Majenz"
           note: "The H-coefficient technique is as close as it gets to a universal tool for provable symmetric-key cryptography in idealized models. In this talk, I will first discuss what makes the H-coefficient technique so successful, and discuss why extending it to quantum adversaries seems hard. I will then present a different much more pedestrian approach: hybridizing across an adversary's queries to a keyed oracle (which remains classical/non-quantum in the post-quantum security setting). I will exemplify the technique using Even Mansour, the cipher we developed it for (together with Gorjan Alagic, Chen Bai, and Jonathan Katz). I will show a list of constructions the technique has been applied to, and describe prospects and obstacles to further applications."
-          pdf: "Majenz"
+          pdf: "Majenz.pdf"
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
@@ -77,7 +77,7 @@
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
           speaker: "Mihir Bellare"
           note: "The first part of this talk, which is on the technical side, will critique the current definition of authenticated encryption (AE1 or AEAD), with regard, not to novel or advanced goals, but (perhaps surprisingly) to providing the most basic message privacy. It will then discuss alternatives (AE2, AE3, AE5), ultimately suggesting as a conclusion that a really good definition is still lacking and an open question. The second part of the talk, which is more on the social side, will explore how AI might impact our community."
-          pdf: "Bellare"
+          pdf: "Bellare.pdf"
       others:
         - time: "11:40 - 12:30"
           type: "Work in Groups"
@@ -124,13 +124,13 @@
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
           speaker: "Bart Mennink"
           note: "The suffix keyed sponge (SuKS) is a variant of the keyed sponge that processes the key after the data instead of before the data. In 2019, Dobraunig and Mennink proved that this construction is a secure pseudorandom function and also achieves a certain level of leakage resilience. In this presentation, we take a fresh look at SuKS: we consider its advantages over the full-state keyed sponge, its disadvantages, and present a new generalization. We also discuss various applications of this generalized construction."
-          pdf: "Mennink"
+          pdf: "Mennink.pdf"
         - time: "09:50 - 10:30"
           title: "FLOE: Random-Access AEAD for Fast Lightweight Online Encryption"
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
           speaker: "Julia Len"
           note: "An ubiquitous problem in large-scale production environments is online encryption of large messages (e.g., databases, video streams, etc.), that is, encryption while using a small amount of memory. While straightforward when only (unauthenticated) encryption is required---say, by encrypting/decrypting in chunks, using a standard encryption scheme---this is more challenging in the presence of active attackers, who may drop or reorganize ciphertext segments arbitrarily. Moreover, many use cases additionally require both encryption and decryption to be random access, meaning that messages (resp., ciphertexts) can be encrypted (resp., decrypted) in any order. The purpose of this talk is to present the design of FLOE (Fast Lightweight Online Encryption), a new random-access online AEAD scheme. FLOE was designed in close collaboration with Snowflake, a leading cloud company, where it is slated to be deployed in production to protect sensitive user data. Requiring online encryption of large files, Snowflake encountered a number of real-world challenges with existing schemes, which motivated the design of a new construction."
-          pdf: "Len"
+          pdf: "Len.pdf"
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
@@ -181,7 +181,7 @@
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
           speaker: "Hrithik Nandi"
           note: "In this talk, we study generic committing attacks against sponge-based authenticated encryption. We examine existing attack strategies for generic sponge constructions and study how various design features, including key blinding and zero-padding, affect their committing security. Finally, we present three new committing attacks that improve upon previously known attacks. In particular, one of our attacks provides a counterexample to the existing security analysis of Ascon-like schemes with zero-padding, showing that the claimed security does not hold for all parameter choices. For the case of 128-bit tags and 256-bit zero-padding, the previous analysis claims 192-bit committing security, whereas our attack reduces this to 130 bits."
-          pdf: "Nandi"
+          pdf: "Nandi.pdf"
     - break:
         time: "10:30 - 11:00"
         type: "Coffee break"
@@ -193,7 +193,7 @@
           location: "HEEG02 - FAV Hörsaal 1 Helmut Veith"
           speaker: "Stefano Trevisani"
           note: "Modern ZK-SNARKs and ZK-STARKs, and many of their applications, require on cryptographic compression and hash functions. In this setting, efficiency is dictated by arithmetization requirements, where classical designs typically fall short. In this talk, we will explore the design of provably secure arithmetization-oriented compression functions, based on either block ciphers or cryptographic permutations, and compare their efficiency to existing constructions in the literature."
-          pdf: "Trevisani"
+          pdf: "Trevisani.pdf"
       others:
         - time: "11:40 - 12:30"
           type: "Work in Groups"
